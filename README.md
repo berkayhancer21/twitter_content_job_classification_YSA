@@ -2,8 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![GitHub Issues](https://img.shields.io/github/issues/your_username/Social_Media_Profession_Classification_YSA)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/your_username/Social_Media_Profession_Classification_YSA)
+![GitHub Issues](https://img.shields.io/github/issues/berkayhancer21/Social_Media_Profession_Classification_YSA)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/berkayhancer21/Social_Media_Profession_Classification_YSA)
 
 ## Table of Contents
 
