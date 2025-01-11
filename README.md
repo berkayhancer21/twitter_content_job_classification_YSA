@@ -41,12 +41,21 @@ Social_Media_Profession_Classification_YSA/
 │
 ├── data/
 │   ├── unprocessed/
-│   │   └── tweets_pull_with_api.csv
+│       ├── Tweets.txt
+│       └── tweets_pull_with_api.csv
 │   ├── processed/
-│   │   └── tweets_pull_with_api_cleaned.csv
+│       ├── preprocessed_tweets.csv
+│       ├── preprocessed_tweets_cleaned.csv
+│       ├── preprocessed_tweets_labels_cleaned.csv
+│       ├── tweets_job_prediction.csv
+│       └── tweets_pull_with_api_cleaned.csv
 │   └── prepared_data/
 │       ├── tfidf_vectorizer.pkl
-│       └── label_encoder.pkl
+│       ├── tfidf_vectorizer.pkl
+│       ├── X_test.npz
+│       ├── X_train.npz
+│       ├── y_test.pkl
+│       └── y_train.pkl
 │
 ├── models/
 │   ├── baseline_model.h5
@@ -54,6 +63,11 @@ Social_Media_Profession_Classification_YSA/
 │   ├── variation2_model.h5
 │   ├── variation3_model.h5
 │   └── variation4_model.h5
+│   └── classification_reports/
+│        ├── baseline_model_classification_report.csv
+│        ├── model_variation_1_classification_report.csv
+│        ├── model_variation_2_classification_report.csv
+│        └── model_variation_3_classification_report.csv       
 │
 ├── scripts/
 │   ├── __init__.py
@@ -65,11 +79,6 @@ Social_Media_Profession_Classification_YSA/
 │   ├── _5_model_training.py
 │   ├── _6_evaluation.py
 │   └── _7_prediction.py
-│
-├── results/
-│   ├── performance_comparison.png
-│   ├── confusion_matrix.png
-│   └── ...
 │
 ├── README.md
 └── requirements.txt
