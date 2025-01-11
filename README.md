@@ -1,28 +1,51 @@
 # Social_Media_Profession_Classification_YSA
 
-This project focuses on classifying Turkish social media tweets into various profession categories using Artificial Neural Networks (YSA). The goal is to develop and compare different neural network architectures to achieve the lowest possible error rate in classification tasks.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![GitHub Issues](https://img.shields.io/github/issues/your_username/Social_Media_Profession_Classification_YSA)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/your_username/Social_Media_Profession_Classification_YSA)
 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Models](#models)
 - [Technologies](#technologies)
+- [Results](#results)
+- [Evaluation](#evaluation)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
-Social media platforms generate vast amounts of data daily. Classifying these posts into predefined profession categories (e.g., Lawyer, Engineer, Doctor) can provide valuable insights for businesses, researchers, and marketers. This project utilizes YSA to automate and enhance the accuracy of profession classification.
+Social media platforms generate vast amounts of data daily. Classifying these posts into predefined profession categories (e.g., Lawyer, Engineer, Doctor) can provide valuable insights for businesses, researchers, and marketers. This project utilizes Artificial Neural Networks (YSA) to automate and enhance the accuracy of profession classification based on Turkish tweets.
+
+By leveraging Natural Language Processing (NLP) techniques and deep learning architectures, this project aims to develop a robust model capable of accurately predicting user professions from their tweet content. The classification process involves data collection, preprocessing, feature engineering, model training, evaluation, and deployment for real-time predictions.
+
+## Features
+
+- **Data Collection:** Automated extraction of tweets using Twitter API.
+- **Data Cleaning:** Removal of URLs, mentions, hashtags, and special characters; conversion to lowercase; stop words elimination.
+- **Feature Engineering:** TF-IDF vectorization to convert text data into numerical representations.
+- **Model Development:** Implementation of multiple Neural Network architectures, including a Baseline Model and variations with LSTM layers.
+- **Evaluation:** Comprehensive performance metrics and visualizations to assess model efficacy.
+- **Prediction:** Application of the trained model to predict professions of new Twitter users.
 
 ## Installation
 
-Clone the repository and install the required packages:
+### Prerequisites
+
+- **Python 3.8 or higher**
+- **pip** (Python package installer)
+
+### Clone the Repository
 
 ```bash
-git clone https://github.com/your_username/social_media_profession_classification_YSA.git
-cd social_media_profession_classification_YSA
-pip install -r requirements.txt
+git clone https://github.com/your_username/Social_Media_Profession_Classification_YSA.git
+cd Social_Media_Profession_Classification_YSA
+
