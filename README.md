@@ -35,6 +35,46 @@ By leveraging Natural Language Processing (NLP) techniques and deep learning arc
 - **Evaluation:** Comprehensive performance metrics and visualizations to assess model efficacy.
 - **Prediction:** Application of the trained model to predict professions of new Twitter users.
 
+## Project Structure
+```plaintext
+Social_Media_Profession_Classification_YSA/
+│
+├── data/
+│   ├── unprocessed/
+│   │   └── tweets_pull_with_api.csv
+│   ├── processed/
+│   │   └── tweets_pull_with_api_cleaned.csv
+│   └── prepared_data/
+│       ├── tfidf_vectorizer.pkl
+│       └── label_encoder.pkl
+│
+├── models/
+│   ├── baseline_model.h5
+│   ├── variation1_model.h5
+│   ├── variation2_model.h5
+│   ├── variation3_model.h5
+│   └── variation4_model.h5
+│
+├── scripts/
+│   ├── __init__.py
+│   ├── _0_data_collection_twitter_api.py
+│   ├── _1_data_preprocessing.py
+│   ├── _2_txt_to_csv_converter.py
+│   ├── _3_feature_engineering.py
+│   ├── _4_model_variations.py
+│   ├── _5_model_training.py
+│   ├── _6_evaluation.py
+│   └── _7_prediction.py
+│
+├── results/
+│   ├── performance_comparison.png
+│   ├── confusion_matrix.png
+│   └── ...
+│
+├── README.md
+└── requirements.txt
+```
+
 ## Installation
 
 ### Prerequisites
